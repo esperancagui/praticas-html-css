@@ -5,6 +5,53 @@
     --cor-de-fundo: #00030C;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+.container{
+    height: 100vh;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+
+.container__botao{
+    
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 8px;
+    width: 24vh;
+    text-align: center;
+}
+
+.container__vazado{
+    text-decoration: none;
+    color: var(--branco-principal);
+    padding: 0.9em;
+    border: 2px solid var(--branco-principal);
+    border-radius: 8px;
+    width: 24vh;
+    text-align: center;
 }
