@@ -79,6 +79,7 @@ body{
 
 .secundario__texto{
     color: var(--cinza-secundário);
+    padding-bottom: 1em;
     
 }
 
